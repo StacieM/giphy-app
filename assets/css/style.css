@@ -1,0 +1,39 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: black;
+  background-image: url('../images/soccer.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top; 
+  background-size: cover;
+  height: 100%;
+}
+
+label {
+  margin-top: 175px;
+  max-width: 150px;
+  margin: auto;
+  color: white;
+}
+
+p {
+  margin-top: 40px;
+  color: white;
+}
+
+#topics-view {
+  padding-top: 7px;
+  height: 45px;
+  color: black;
+  padding-left: 14px;
+  /*background-color: white;*/
+  border-radius: 4px;
+  width: 400px;
+}
+
+#add-topic {
+  margin-top: 20px;
+}
+
+
+

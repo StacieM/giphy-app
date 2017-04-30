@@ -1,39 +1,95 @@
 body {
-  font-family: Tahoma, Geneva, sans-serif;
-  color: black;
-  background-image: url('../images/soccer.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top; 
-  background-size: cover;
-  height: 100%;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: black;
+    background-image: url('../images/soccer.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+}
+
+header {
+    padding: 1em;
+    color: green;
+    background-color: white;
+    clear: left;
+    text-align: center;
 }
 
 label {
-  margin-top: 175px;
-  max-width: 150px;
-  margin: auto;
-  color: white;
+    margin-top: 175px;
+    max-width: 150px;
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
 }
 
 p {
-  margin-top: 40px;
-  color: white;
+    margin-top: 40px;
+    color: white;
 }
 
 #topics-view {
-  padding-top: 7px;
-  height: 45px;
-  color: black;
-  padding-left: 14px;
-  /*background-color: white;*/
-  border-radius: 4px;
-  width: 400px;
+    padding-top: 50%;
+    padding-left: 50%;
+    padding-top: 7px;
+    height: 45px;
+    color: black;
+    padding-left: 14px;
+    border-radius: 4px;
+    width: 720px;
+}
+
+.sports {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
 }
 
 #add-topic {
-  margin-top: 20px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
 }
 
-
-
+#topic-input {
+    margin-top: 20px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+}

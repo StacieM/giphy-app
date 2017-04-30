@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-var topics = ["Soccer", "Baseball", "Surfing", "Tennis", "Golf"];
+var topics = ["Soccer", "Baseball", "Surfing", "Tennis", "Golf", "Gymnastics"];
   // Function for displaying topics data
 function renderButtons() {
         // Deleting the topic buttons prior to adding new topic buttons
